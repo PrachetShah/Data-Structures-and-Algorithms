@@ -16,3 +16,5 @@ function findNemo2(fish) {
 }
 
 findNemo2(everyone)
+//It has O(n) --> Linear Time
+ 
