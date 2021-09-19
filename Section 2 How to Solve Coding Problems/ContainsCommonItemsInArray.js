@@ -15,21 +15,21 @@ const array2 = ['z', 'y', 'x'];
 
 //O(a*b) quadratic solution
 //O(1) space complexity
-// function containsCommonItem(arr1, arr2){
-//   for(let i=0; i<arr1.length; i++){
-//     for(let j=0; j<arr2.length; j++){
-//       if(arr1[i] === arr2[j]){
-//         return true;
-//       }
-//     }
-//   }
-//   return false;
-// }
+function containsCommonItem(arr1, arr2){
+  for(let i=0; i<arr1.length; i++){
+    for(let j=0; j<arr2.length; j++){
+      if(arr1[i] === arr2[j]){
+        return true;
+      }
+    }
+  }
+  return false;
+}
 
 
 //O(a+b) - Time Complexity
 //O(a) - Space Complexity
-function containsCommonItem(arr1, arr2){
+function containsCommonItem2(arr1, arr2){
   //loop through first array and create object where properties equal items in the array
   let map={};
   for(let i=0; i<arr1.length; i++){
@@ -56,3 +56,5 @@ function containsCommonItem3(arr1, arr2) {
 
 
 containsCommonItem(array1, array2);
+containsCommonItem2(array1, array2);
+containsCommonItem3(array1, array2);
