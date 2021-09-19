@@ -49,7 +49,7 @@ function containsCommonItem(arr1, arr2){
   return false;
 }
 
-//Method 3, using inbuilt linear
+//Method 3, using inbuilt linear, Language Specific Solution
 function containsCommonItem3(arr1, arr2) {
   return arr1.some(item => arr2.includes(item))
 }
