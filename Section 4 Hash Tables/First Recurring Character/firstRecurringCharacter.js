@@ -8,7 +8,7 @@
 //Given an array = [2,3,4,5]:
 //It should return undefined
 
-
+//O(n^2) Time
 function firstRecurringCharacter(input) {
   for (let i = 0; i < input.length; i++) {
     for (let j = i + 1; j < input.length; j++) {
@@ -20,6 +20,7 @@ function firstRecurringCharacter(input) {
   return undefined
 }
 
+//O(n) Time
 function firstRecurringCharacter2(input) {
   map = {}
   for(let i=0; i<input.length; i++){
