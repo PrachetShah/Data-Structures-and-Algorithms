@@ -20,8 +20,11 @@ class Stack {
       this.top = newNode;
       this.bottom = newNode;
     } else {
+      //top changes to newvalue
       const holdingPointer = this.top;
+      //top becomes newvalue
       this.top = newNode;
+      //initial top becomes second now
       this.top.next = holdingPointer;
     }
     this.length++;
