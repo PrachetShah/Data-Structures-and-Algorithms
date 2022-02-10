@@ -4,8 +4,8 @@
 * Bubble Sort
 * Selection Sort
 * Insertion Sort
-* Merge Sort
-* Quick Sort
+* Merge Sort (Divide & Conquer)
+* Quick Sort (Divide & Conquer)
 * Heap Sort
 * Radix Sort + Counting Sort
 
