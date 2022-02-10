@@ -2,7 +2,6 @@
 # Time Complexity: O(nlog(n))
 def mergeSort(arr):
 	if len(arr) > 1:
-
 		# Finding the mid of the array
 		mid = len(arr)//2
 
