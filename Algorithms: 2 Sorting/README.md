@@ -17,3 +17,12 @@
 
 
 JavaScript Sort Method:  https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/sort
+
+
+## When to use which Sorting Method
+* Insertion Sort to be used with (small input or mostly sorted input)
+* Bubble Sort is never used generally because it is not efficient
+* Selection Sort is also used
+* Merge Sort is really good because of D&C, if worried about Worst Case then use Merge Sort, dont use it if you have space complexity in mind, it has Space of O(n)
+* Quick Sort is same as Merge Sort in avg Time Complexity and better in Space Complexity.It just has some 
+
