@@ -18,6 +18,9 @@
 
 JavaScript Sort Method:  https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/sort
 
+
+All Big O Related Concepts: https://www.bigocheatsheet.com/
+<br>
 <img src="Big O Array Sorting Algo.png" alt="cheatsheet" style="display:block;margin-left:auto;margin-right:auto;width:50%"></img>
 ## When to use which Sorting Method
 * Insertion Sort to be used with (small input or mostly sorted input)
