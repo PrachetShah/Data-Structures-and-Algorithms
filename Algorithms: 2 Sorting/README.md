@@ -1,5 +1,7 @@
 Python .sort() uses an algorithm called Timsort: Timsort is a hybrid sorting algorithm, derived from merge sort and insertion sort, designed to perform well on many kinds of real-world data.
 
+The various JavaScript engines implement this method using different sort algorithms: V8: Quicksort or Insertion Sort (for smaller arrays) Firefox: Merge sort.
+
 ## Sorting Algorithm
 
 -> Different Sorting Algorithms
