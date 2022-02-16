@@ -1,3 +1,5 @@
+Python .sort() uses an algorithm called Timsort: Timsort is a hybrid sorting algorithm, derived from merge sort and insertion sort, designed to perform well on many kinds of real-world data.
+
 ## Sorting Algorithm
 
 -> Different Sorting Algorithms
